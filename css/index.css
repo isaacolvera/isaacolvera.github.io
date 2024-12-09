@@ -7,6 +7,7 @@ html {
     height: 100%;
 }
 
+/* Display background color/image and leave room for the footer */
 body {
     background-image: linear-gradient(rgb(27, 28, 99), rgb(0, 0, 0));
     background-attachment: fixed;
@@ -20,6 +21,7 @@ p {
     font-size: 25px;
 }
 
+/* Styling for navigation bar */
 .topnav {
     position: sticky;
     overflow: hidden;
@@ -30,6 +32,7 @@ p {
     font-family: Arial, sans-serif;
 }
 
+/* Spacing for headers in nav bar */
 .topnav ul {
     list-style: none;
     padding: 5px 10px;
@@ -40,7 +43,8 @@ p {
 .topnav li {
     display: inline-block;
 }
-  
+
+/* Styling for links/text for each header in the nav bar */
 .topnav a {
     display: block;
     color: #ffffff;
@@ -50,6 +54,7 @@ p {
     font-size: 17px;
 }
 
+/* Active and hover styling for each header */
 .topnav a:hover {
     color: #666666;
 }
@@ -59,6 +64,7 @@ p {
     color: #666666;
 }
 
+/* Styling for title on body of the webpage */
 .titleHeader {
     display: block;
     color: #ffffff;
@@ -69,6 +75,9 @@ p {
     text-shadow: 5px 5px 10px #666666;
 }
 
+/* Container, row, and column used to style and create proper spacing
+for all of the information/data on the webpage. Make sure it is centered
+and spaced properly */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -96,6 +105,7 @@ p {
     margin-right: 0;
 }
 
+/* Styling for the footer  */
 .bottomfooter {
     position: relative;
     bottom: 0px;
@@ -104,6 +114,7 @@ p {
     width: 100%
 }
 
+/* Proper sizing for avatar image and footer icons */
 .avatar-image {
     width: 80%;
     max-width: 400px;
@@ -116,7 +127,7 @@ p {
     margin: 0px 2px;
 }
 
-/* Responsive styling */
+/* Responsive styling for small devices */
 @media (max-width: 768px) {
     .container {
         flex-direction: column; /* Stack the sections vertically on smaller screens */

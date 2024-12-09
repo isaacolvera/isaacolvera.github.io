@@ -7,6 +7,7 @@ html {
     height: 100%;
 }
 
+/* Display background color/image and leave room for the footer */
 body {
     background-image: linear-gradient(rgb(27, 28, 99), rgb(0, 0, 0));
     background-attachment: fixed;
@@ -15,6 +16,7 @@ body {
     min-height: calc(100vh - 40px);
 }
 
+/* Styling for paragraphs and horizontal bar */
 p {
     color: #ffffff;
     font-size: 18px;
@@ -27,6 +29,7 @@ hr {
     background-color: #ffffff;
 }
 
+/* Styling for navigation bar */
 .topnav {
     position: sticky;
     overflow: hidden;
@@ -37,6 +40,7 @@ hr {
     font-family: Arial, sans-serif;
 }
 
+/* Spacing for headers in nav bar */
 .topnav ul {
     list-style: none;
     padding: 5px 10px;
@@ -48,6 +52,7 @@ hr {
     display: inline-block;
 }
   
+/* Styling for links/text for each header in the nav bar */
 .topnav a {
     display: block;
     color: #ffffff;
@@ -57,6 +62,7 @@ hr {
     font-size: 17px;
 }
 
+/* Active and hover styling for each header */
 .topnav a:hover {
     color: #666666;
 }
@@ -66,6 +72,7 @@ hr {
     color: #666666;
 }
 
+/* Styling for title on body of the webpage */
 .titleHeader {
     display: block;
     color: #ffffff;
@@ -76,6 +83,9 @@ hr {
     text-shadow: 5px 5px 10px #666666;
 }
 
+/* Container, row, and column used to style and create proper spacing
+for all of the information/data on the webpage. Make sure it is centered
+and spaced properly */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +113,7 @@ hr {
     margin-right: 0;
 }
 
+/* Container to hold form information */
 .form-container {
     height: 100%;
     display: flex;
@@ -110,6 +121,8 @@ hr {
     justify-content: space-evenly;
 }
 
+/* Set the contact information to the left, make sure properties align with 
+form container */
 .contact-left {
     display: flex;
     flex-direction: column;
@@ -117,11 +130,13 @@ hr {
     gap: 20px
 }
 
+/* Add spacing to the textarea item */
 .contact-left textarea {
     height: 140px;
     padding-top: 15px;
 }
 
+/* Add styling to the button on the form button */
 .contact-left button {
     display: flex;
     align-items: center;
@@ -133,6 +148,7 @@ hr {
     cursor: pointer;
 }
 
+/* Add proper spacing to the input sections on the form container */
 .contact-input {
     width: 400px;
     height: 50px;
@@ -143,6 +159,7 @@ hr {
     border-radius: 10px
 }
 
+/* Styling for the footer  */
 .bottomfooter {
     position: relative;
     bottom: 0px;
@@ -152,6 +169,7 @@ hr {
     padding-bottom: 10px;
 }
 
+/* Proper sizing footer icons */
 .footer-icons {
     width: 42px;
     height: 42px;

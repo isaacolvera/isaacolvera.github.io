@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Modify webpage based on viewing device -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Contact </title>
+
+        <!-- Use contact.css to stylize contact page -->
         <link rel="stylesheet" href="../css/contact.css">
     </head>
     <body>
+        <!-- Navigation bar used to navigate portfolio -->
         <div class="topnav" id="topnav">
             <ul>
+                <!-- Links to all html pages -->
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -21,10 +26,14 @@
         </div>
         <hr><br>
 
+        <!-- Container used to place all data/information -->
         <div class="container">
             <div class="row">
                 <div class="column">
+                    <!-- Form ontainer used to display all form information, as well as taking the user's
+                     information so that their name, email, and message is sent to my email address -->
                     <div class="form-container">
+                        <!-- Use api.web3forms to send/receive data -->
                         <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
                             <input type="hidden" name="access_key" value="41113021-f0f7-4919-a74d-e3ad529c1139">
                             <input type="text" name="name" placeholder="Your name" class="contact-input" required>
@@ -35,7 +44,8 @@
                     </div>
                 </div>
             </div>
-        
+
+        <!-- Footer to showcase GitHub and LinkedIn pages, as well as my name + School's CWID-->
         <div class="bottomfooter">
             <a href="https://github.com/isaacolvera" title="View Isaac Olvera's Github Profile">
                 <img src="../images/github_image.jpg" alt="My Github Link" class="footer-icons">

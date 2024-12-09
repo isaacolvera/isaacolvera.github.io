@@ -7,6 +7,7 @@ html {
     height: 100%;
 }
 
+/* Display background color/image and leave room for the footer */
 body {
     background-image: linear-gradient(rgb(27, 28, 99), rgb(0, 0, 0));
     background-attachment: fixed;
@@ -15,6 +16,7 @@ body {
     min-height: calc(100vh - 40px);
 }
 
+/* Styling for paragraphs and horizontal bar */
 p {
     color: #ffffff;
     font-size: 20px;
@@ -32,6 +34,7 @@ ul {
     font-size: 20px;
 }
 
+/* Styling for navigation bar */
 .topnav {
     position: sticky;
     overflow: hidden;
@@ -42,6 +45,7 @@ ul {
     font-family: Arial, sans-serif;
 }
 
+/* Spacing for headers in nav bar */
 .topnav ul {
     list-style: none;
     padding: 5px 10px;
@@ -53,6 +57,7 @@ ul {
     display: inline-block;
 }
   
+/* Styling for links/text for each header in the nav bar */
 .topnav a {
     display: block;
     color: #ffffff;
@@ -62,6 +67,7 @@ ul {
     font-size: 17px;
 }
 
+/* Active and hover styling for each header */
 .topnav a:hover {
     color: #666666;
 }
@@ -71,6 +77,7 @@ ul {
     color: #666666;
 }
 
+/* Styling for title on body of the webpage */
 .titleHeader {
     display: block;
     color: #ffffff;
@@ -81,6 +88,10 @@ ul {
     text-shadow: 5px 5px 10px #666666;
 }
 
+
+/* Container, row, and column used to style and create proper spacing
+for all of the information/data on the webpage. Make sure it is centered
+and spaced properly */
 .container {
     flex-wrap: wrap;
     justify-content: center; /* Center content horizontally */
@@ -107,6 +118,7 @@ ul {
     margin-right: 0;
 }
 
+/* Styling for text on the skills page */
 .skills {
     text-align: right;
     padding: 10px 15px; /* Add internal padding for spacing */
@@ -115,6 +127,7 @@ ul {
     border-radius: 10px; /* Match the parent's rounding for smooth edges */
 }
 
+/* Display the bars proportionate to the percentages */
 .html {width: 75%; background-color: #4c7ac3;}
 .css {width: 75%; background-color: #36813c;}
 .js {width: 60%; background-color: #814949;}
@@ -123,6 +136,8 @@ ul {
 .sql {width: 45%; background-color: #3e3e3e;}
 .csharp {width: 55%; background-color: #4d2c6f}
 
+
+/* Styling for the footer  */
 .bottomfooter {
     position: relative;
     bottom: 0px;
@@ -132,6 +147,7 @@ ul {
     padding-bottom: 10px;
 }
 
+/* Proper sizing footer icons */
 .footer-icons {
     width: 42px;
     height: 42px;
